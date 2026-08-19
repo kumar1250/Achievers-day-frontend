@@ -1,6 +1,6 @@
 // Point this at your deployed Django backend. During local development
 // this defaults to the Django dev server on http://localhost:8000/api.
-const API_BASE = import.meta.env.VITE_API_BASE || "https://achievers-day-backend-b0cd.onrender.com/api";
+const API_BASE = import.meta.env.VITE_API_BASE || "https://achievers-day-backend-hep2.onrender.com/api";
 
 async function request(path, options = {}) {
   const res = await fetch(`${API_BASE}${path}`, {
